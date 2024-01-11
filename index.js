@@ -25,6 +25,7 @@ const setSuccess = element => {
 
     errorDisplay.innerText = '';
     inputControl.classList.add('success');
+    successMessage.textContent = 'Successfully registered';
     inputControl.classList.remove('error');
 };
 
